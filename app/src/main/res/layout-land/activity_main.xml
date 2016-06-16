@@ -5,13 +5,12 @@
               android:layout_height="match_parent">
 
 
-    <fragment
+    <FrameLayout
         android:layout_width="0dp"
         android:layout_weight="1"
-        android:layout_height="match_parent"
-        android:id="@+id/titlesFragment"
-        android:name="com.takaha4apps.myfragmentapp.TitlesFragment"></fragment>
-
+        android:id="@+id/titleFrame"
+        android:padding="16dp"
+        android:layout_height="wrap_content"></FrameLayout>
     <FrameLayout
         android:layout_width="0dp"
         android:layout_weight="2"

@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- The main content view -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.takaha4apps.myfragmentapp.MainActivity">
+    tools:context="com.takaha4apps.dqxrssreader.MainActivity">
 
-    <fragment
+    <FrameLayout
+        android:id="@+id/titleFrame"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/titlesFragment"
-        android:name="com.takaha4apps.myfragmentapp.TitlesFragment"></fragment>
-
+        android:layout_height="match_parent">
+    </FrameLayout>
 
 </LinearLayout>
