@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">DQX神まとめ</string>
+    <string name="drawer_open">Menu</string>
+    <string name="drawer_close">Close</string>
+    <string name="desc_icon">プロフィール画像</string>
+    <string-array name="drawer_list_arr">
+        <item>最新情報</item>
+        <item>攻略データベース</item>
+        <item>お問い合わせ</item>
+    </string-array>
 
 </resources>
